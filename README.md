@@ -1,3 +1,3 @@
-# Dating App
+# Dating App - Under Development
 
-### Stack - Angular, DotNet Core 3.1
+### Stack - Angular, ASP.Net Core MVC 3.1 (View - Angular)
