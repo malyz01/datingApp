@@ -12,24 +12,16 @@ import { HomeComponent } from './home/home.component';
 import { RegisterComponent } from './register/register.component';
 
 @NgModule({
-   declarations: [
-      AppComponent,
-      ValueComponent,
-      AnotherComponent,
-      NavComponent,
-      HomeComponent,
-      RegisterComponent
-   ],
-   imports: [
-      BrowserModule,
-      HttpClientModule,
-      FormsModule
-   ],
-   providers: [
-      AuthService
-   ],
-   bootstrap: [
-      AppComponent
-   ]
+  declarations: [
+    AppComponent,
+    ValueComponent,
+    AnotherComponent,
+    NavComponent,
+    HomeComponent,
+    RegisterComponent
+  ],
+  imports: [BrowserModule, HttpClientModule, FormsModule],
+  providers: [AuthService],
+  bootstrap: [AppComponent]
 })
 export class AppModule {}
